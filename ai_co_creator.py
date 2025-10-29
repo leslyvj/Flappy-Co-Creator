@@ -263,7 +263,7 @@ User request: {prompt}
 Return the updated JSON configuration with ALL fields:"""
 
         # Get model from environment or use default
-        model = os.getenv('OLLAMA_MODEL', 'llama3.2')
+        model = os.getenv('OLLAMA_MODEL', 'mistral:latest')
         
         # Call Ollama
         response = ollama.chat(
