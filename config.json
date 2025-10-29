@@ -1,0 +1,36 @@
+{
+  "gravity": 1.0,
+  "jump_strength": -12.0,
+  "pipe_speed": 3.5,
+  "pipe_gap": 180,
+  "pipe_frequency": 120,
+  "difficulty": "easy",
+  "paused": false,
+  "night_mode": true,
+  "sound_effects": true,
+  "sounds": {
+    "jump": "assets/sounds/sfx_wing.mp3",
+    "bg_music": "assets/sounds/Flappy Bird Theme Song.mp3",
+    "hit": "assets/sounds/die.mp3",
+    "score": "assets/sounds/point.mp3",
+    "swoosh": "assets/sounds/sfx_swooshing.mp3"
+  },
+  "sound_volume": 0.8,
+  "ai_player": true,
+  "ai_model_path": "models/flappy_ppo_test.zip",
+  "background_color": [
+    255,
+    165,
+    0
+  ],
+  "bird_color": [
+    255,
+    215,
+    0
+  ],
+  "pipe_color": [
+    34,
+    60,
+    82
+  ]
+}
